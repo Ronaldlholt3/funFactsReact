@@ -51,7 +51,7 @@ nav a.active {
 .fact-container {
   padding: 30px;
   border-radius: 8px;
-  background-color: #f0f8ff; /* Light blue background for facts */
+  background-color: #f0f8ff;
   border: 1px solid #e1e1e1;
 }
 

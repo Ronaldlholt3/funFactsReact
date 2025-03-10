@@ -3,11 +3,12 @@ import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import FirstLanguage from './components/FirstLanguage';
 import ParadigmShift from './components/ParadigmShift';
 import ModernTrends from './components/ModernTrends';
-import './App.css'; // Create this CSS file
+import './App.css';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/funFactsReact">
+      {/* <BrowserRouter basename="/funFactsReact"> */}
       <div className="app-container">
         <nav>
           <ul>
@@ -28,6 +29,7 @@ function App() {
           <Route path="/modern" element={<ModernTrends />} />
         </Routes>
       </div>
+      {/* </BrowserRouter> */}
     </Router>
   );
 }

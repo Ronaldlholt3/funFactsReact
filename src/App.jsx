@@ -7,7 +7,7 @@ import './App.css';
 
 function App() {
   return (
-    <Router basename="/funFactsReact">
+    <Router basename="/funFactsReact"> 
       {/* <BrowserRouter basename="/funFactsReact"> */}
       <div className="app-container">
         <nav>
